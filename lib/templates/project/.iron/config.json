@@ -9,5 +9,10 @@
     "html": <%= config.template.html %>,
     "js": <%= config.template.js %>,
     "css": <%= config.template.css %>
+  },
+
+  "route": {
+    "controller": <%= config.route.controller %>,
+    "template": <%= config.route.template %>
   }
 }
