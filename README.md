@@ -1,5 +1,7 @@
 # iron
 
+[![Join the chat at https://gitter.im/iron-meteor/iron-cli](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iron-meteor/iron-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A command line scaffolding tool for Meteor applications. It automatically
 creates project structure, files and boilerplate code.
 
@@ -85,6 +87,7 @@ $ iron g:controller todos/show_todo
 $ iron g:route todos/show_todo --action "show"
 $ iron g:publish todos
 $ iron g:stylesheet main
+$ iron g:package package:name
 ```
 
 ## Commands
